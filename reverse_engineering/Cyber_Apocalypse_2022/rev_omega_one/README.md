@@ -3,7 +3,7 @@
 in this challenge we have an output file that contains some random names
 
 ```
- Crerceon 
+Crerceon 
 Ezains   
 Ummuh
 Zonnu
@@ -14,27 +14,10 @@ Ohols
 Groz'ens
 Ukox
 Ehnu 
-Pheilons 
-Cuzads 
-Khehlan 
-Ohols  
-Ehnu 
-Munis 
-Inphas 
-Pheilons 
-Ehnu 
-Dut
-Ukox
-Ohols 
-Pheilons 
-Pheilons 
-Zimil 
-Ehnu 
-Honzor
-Vinzo
-Ukteils
-Falnain
-Dhohmu
-Baadix
+.
+.
+.
+etc
 ```
+and an excutable file _omega-one_
 
