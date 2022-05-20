@@ -36,4 +36,20 @@ from ghidra we find out that the length we need is 32 from the if statment we ha
 let see what these variables are.
 
 <img src="images/encrypted.JPG" >
+
+it seems that `encrypted` variable contains a hex values.
+
+```
+29 38 2b 1e 06 42 05 5d 07 02 31 42 0f 33 0a 55 00 00 15 1e 1c 06 1a 43 13 59 36 54 00 42 15 11 00
+```
+
+<img src="images/key.JPG">
+
+and the key variable contains the word `humans` as shown.
+
+lets go to cyberchef to make that xor operation.
+
+<img src="images/xor.JPG">
+
+
                        
