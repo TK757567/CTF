@@ -51,5 +51,9 @@ lets go to cyberchef to make that xor operation.
 
 <img src="images/xor.JPG">
 
+well that's not our flag ofcourse there is somthing missing, back when we executed the file it printed
+
+```
+
 
                        
