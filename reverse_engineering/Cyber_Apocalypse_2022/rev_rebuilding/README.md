@@ -60,4 +60,18 @@ Preparing secret keys
 
 it doesn't seems to be in the `main` funtion, there is something being called befor the `main` function.
 
-the only funcions that are being execued befor the main functions are the `constructors` aka in `_init_`
+the only funcions that are being execued befor the main functions are the `constructors` aka in `_init_`.
+
+<img src="images/the_right_key.JPG" >
+
+now everythings is alright we found another key in the `_init_` function
+
+```
+aliens
+```
+now let's try the xor again with our new key
+
+<img src="images/flag.png" >
+
+Voilà, we finlly got the flag.
+
