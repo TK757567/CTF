@@ -49,7 +49,7 @@ def snake(w):
     f0(w)
     d = (0, 1)
     p = [(5, 5)]
-    pl = 125
+    pl = 1
     s = 0
     l = None
     while 1:
@@ -73,4 +73,33 @@ any way went straight forward and executed it with python2.
 yeah it's just a snake game, but the thing is when the snake eats 5 of the `$` it prints one character from the flag character.
 
 <img src="images/flag.JPG" >
+
+tried to change the variable in this function.
+
+```
+def snake(w):
+    r = i0()
+    c = i1()
+    f0(w)
+    d = (0, 1)
+    p = [(5, 5)]
+    pl = 1
+    s = 0
+    l = None
+    while 1:
+        p, d, pl, l, s, w, c, r = m2(p, d, pl, l, s, w, c, r)
+        time.sleep(0.4)
+        
+```
+changing the value of the `pl` variable was the only thing that was intresting.
+the value of `pl` is how many did the snake eat the `$`
+
+tried and change it to zero it gave me the letter `H` and it exit the snake game after that.
+
+every time i increase the value of `pl` by five it will print a letter from the flag. 
+until i change the `pl` to 125 it finlly printed the end of the flag `}`
+
+_HTB{SuP3r_S3CRt_Sn4k3c0d3}_
+
+
 
