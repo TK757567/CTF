@@ -27,5 +27,5 @@ let's open it in _IDA_ shall we.
 
 <img src="images/Capture.JPG" >
 
-It seems that in the main function it's calling 3 different functions `sub_1673` , `sub_2120` and `sub_1870 .
+It seems that in the main function it's calling 3 different functions `sub_1673` , `sub_2120` and `sub_1870`.
 
