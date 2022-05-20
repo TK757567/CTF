@@ -51,9 +51,13 @@ lets go to cyberchef to make that xor operation.
 
 <img src="images/xor.JPG">
 
-well that's not our flag ofcourse there is somthing missing, back when we executed the file it printed
+well that's not our flag of course there is somthing missing, back when we executed the file it printed
 
+```
+Preparing secret keys
 ```
 
 
-                       
+it doesn't seems to be in the `main` funtion, there is something being called befor the `main` function.
+
+the only funcions that are being execued befor the main functions are the `constructors` aka in __init__
