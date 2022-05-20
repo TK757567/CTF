@@ -31,5 +31,9 @@ from ghidra we find out that the length we need is 32 from the if statment we ha
  
  in this operation it's calling 2 variable `encrypted` and `key`.
  
- it is calling the `key` and xor it with the `encrypted`
+ it is calling the variable `key` and xor it with the variable `encrypted`
+ 
+let see what these variables are.
+
+<img src="images/encrypted.JPG" >
                        
