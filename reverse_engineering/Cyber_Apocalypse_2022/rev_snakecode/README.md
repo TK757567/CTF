@@ -66,5 +66,11 @@ at first i was kinda dump and tried to read the base64 strings :D
 
 it can't be read it was some kind of zlib file tha is being called by the `marshal.loads` function.
 
-any way went straight forward and executed it with python2
+any way went straight forward and executed it with python2.
+
+<img src="images/snake.jpg" >
+
+yeah it's just a snake game, but the thing is when the snake eats 5 of the `$` it prints one character from the flag character.
+
+<img src="images/flag.JPG" >
 
