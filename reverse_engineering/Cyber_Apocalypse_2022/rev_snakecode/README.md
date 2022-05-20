@@ -74,7 +74,7 @@ yeah it's just a snake game, but the thing is when the snake eats 5 of the `$` i
 
 <img src="images/flag.JPG" >
 
-tried to change the variable in this function.
+tried to change the values of the variable in this function.
 
 ```
 def snake(w):
