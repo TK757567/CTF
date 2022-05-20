@@ -60,4 +60,4 @@ Preparing secret keys
 
 it doesn't seems to be in the `main` funtion, there is something being called befor the `main` function.
 
-the only funcions that are being execued befor the main functions are the `constructors` aka in __init__
+the only funcions that are being execued befor the main functions are the `constructors` aka in `_init_`
