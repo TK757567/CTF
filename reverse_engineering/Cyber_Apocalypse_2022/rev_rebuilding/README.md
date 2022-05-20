@@ -10,7 +10,7 @@ tried executing it, it needs to be executed with some argument.
 
 as shown in the picture it say that the length of the argument is not correct.
 
-it's like there is an if statment in the elf file that checks the length of the argument.
+it's like there is a condition in the elf file that checks the length of the argument.
 
 let open it with _ghidra_.
 
