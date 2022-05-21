@@ -21,7 +21,7 @@ Ehnu
 .
 etc
 ```
-and an excutable file _omega-one_, I have tried to excute it but didn't have any thing special.
+and an excutable file _omega-one_, I have tried to execute it but didn't have any thing special.
 
 let's open it in _IDA_ shall we.
 
