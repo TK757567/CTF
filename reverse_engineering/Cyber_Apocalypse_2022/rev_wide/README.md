@@ -60,7 +60,7 @@ i opened the elf file with ghidra and started looking for that key.
              (char)(local_1d4 * 0x1b) + (char)((int)(local_1d4 * 0x1b) / 0xff);
       }
 ```
-there was a comparring function after all `wcscmp`
+there was a comparing function after all `wcscmp`
 
 ```
 The wcscmp() function is the wide-character equivalent of the strcmp(3) function. It compares the wide-character string pointed to by s1 and the wide-character string pointed to by s2. ```
