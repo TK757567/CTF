@@ -3,9 +3,9 @@
 
 without a trace is an easy reverse challenge
 
-from the name of the file you will think that ltrace is useless.well, it's kinda usefull.
+we have only an elf file 
 
-this is what i got after executing it without the ltarce 
+this is what i got after executing it .
 
 ```
 [+] Primary Mothership Tracking Panel
