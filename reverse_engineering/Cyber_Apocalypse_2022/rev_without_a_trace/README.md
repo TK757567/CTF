@@ -45,9 +45,9 @@ tried executing the file with the key i gotbut it was useless
 [X] Intruder detected - dispatching security systems
 ```
 
-without ghidra or IDA went straight forward to cyberchef and tried alot of thing with that key.
+without ghidra or IDA went straight forward to cyberchef and tried alot of things with that key.
 
-finally got the flag just by the using xor brute force operation
+finally got the flag just by the using xor brute force operation.
 
 <img src="images/flag.JPG">
 
