@@ -2,3 +2,65 @@
 
 Teleport is a medium reverse challenge.
 
+in this challenge we only have an elf file.
+
+lets see what we get when we execute it.
+
+```
+./teleport       
+Missing password
+```
+ok it needs an argument.
+
+```
+./teleport aaa
+Something's wrong...
+```
+nothing special with the out put, also i have tried ltrace but it was useless
+
+lets open _ghidra_ and see what we got.
+
+we don't have main function because the elf file is stripped.
+
+```
+teleport: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 3.2.0, BuildID[sha1]=fe96e54a3cc59c165d21aa34f9b9355e88e2d7d0, stripped
+```
+after going to the enrty we have this funcion being executed first `FUN_00101696`.
+
+```
+{
+  int password_length;
+  undefined8 uVar1;
+  uint local_10;
+  
+  if (param_1 == 2) {
+    strncpy(&DAT_00303280,*(char **)(param_2 + 8),100);
+    for (local_10 = 0; local_10 < 0x2b; local_10 = local_10 + 1) {
+      (*(code *)(&PTR_FUN_00303020)[(int)local_10])();
+    }
+    password_length = _setjmp((__jmp_buf_tag *)&DAT_003031a0);
+    if (password_length == 100) {
+      puts("Looks good to me!");
+    }
+    else {
+      if (password_length != 101) {
+                    /* WARNING: Subroutine does not return */
+        longjmp((__jmp_buf_tag *)(&DAT_00303300 + (long)password_length * 200),1);
+      }
+      puts("Something\'s wrong...");
+    }
+    uVar1 = 0;
+  }
+  else {
+    puts("Missing password");
+    uVar1 = 0xffffffff;
+  }
+  return uVar1;
+}
+```
+
+it seems that the password is 100 character that's usual for a reverse challenege
+
+anyway, there is 2 file in the funtion symbol tree.
+
+<img src="images/functions.JPG">
