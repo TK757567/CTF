@@ -64,7 +64,7 @@ i1().wrapper(snake)
 
 at first i was kinda dump and tried to read the base64 strings :D
 
-it can't be read it was some kind of zlib file tha is being called by the `marshal.loads` function.
+it can't be read it was some kind of zlib file that is being called by the `marshal.loads` function.
 
 any way went straight forward and executed it with python2.
 
