@@ -84,7 +84,7 @@ at first i tried to convert these decimal number in cyberchef and xor it with th
 ```
 JISCTF{a7a6c375e20`i;cid2b8lnj,
 ```
-we some progress here but it's not enough.
+we've got some progress here but it's not enough.
 
 then i tried to execute the base64 that we have and save the results into a file.
 
