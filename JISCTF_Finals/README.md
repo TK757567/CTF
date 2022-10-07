@@ -14,7 +14,7 @@ marshel module contains functions that can read and write Python values in a bin
 
 here the code is calling `marshal.loads` and inside of it there is a serialized bytes-like object.
 
-the function marshal.loads converts the serialized bytes-like object to a Python code object, then the exec function is called to execute that python code object.
+the function `marshal.loads` converts the serialized bytes-like object to a Python code object, then the exec function is called to execute that python code object.
 
 Let's extract the marshalled code object and try to disassemble it with the `dis` module:
 
