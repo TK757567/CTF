@@ -1,6 +1,6 @@
 # marshal reverse challenge 
 
-This write up is from JISCTF Finals it was a reverse engineering challenge with 100 point written in python.
+This write up is from JISCTF Finals for the reverse engineering challenge with 100 point written in python.
 
 this challenge was solved using python 3.8.5 it won't be solved using other verions
 ```
